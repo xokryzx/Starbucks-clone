@@ -1,5 +1,9 @@
 @import './components/header.css';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Nanum Gothic', sans-serif;
   color: #333;
