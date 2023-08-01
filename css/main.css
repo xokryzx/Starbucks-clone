@@ -19,3 +19,11 @@ img {
 a {
   text-decoration: none;
 }
+
+.inner {
+  width: 1100px;
+
+  position: relative;
+
+  margin: 0 auto;
+}
