@@ -13,3 +13,22 @@ $searchInput.addEventListener('blur', () => {
   $search.classList.remove('focused');
   $searchInput.setAttribute('placeholder', '');
 });
+
+const $badgeContainer = document.querySelector('.badge-container');
+
+window.addEventListener(
+  'scroll',
+  _.throttle(() => {
+    if (window.scrollY > 500) {
+      gsap.to($badgeContainer, 0.6, {
+        display: 'none',
+        opacity: 0,
+      });
+    } else {
+      gsap.to($badgeContainer, 0.6, {
+        display: 'block',
+        opacity: 1,
+      });
+    }
+  }, 300)
+);
