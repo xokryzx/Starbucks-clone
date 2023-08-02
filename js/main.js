@@ -32,3 +32,11 @@ window.addEventListener(
     }
   }, 300)
 );
+
+const $fadeIn = document.querySelectorAll('.visual--fade-in');
+$fadeIn.forEach((element, index) => {
+  gsap.to(element, 1, {
+    delay: (index + 1) * 0.7,
+    opacity: 1,
+  });
+});

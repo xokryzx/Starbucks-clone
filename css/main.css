@@ -1,4 +1,5 @@
 @import './components/header.css';
+@import './components/visual.css';
 
 * {
   box-sizing: border-box;
@@ -26,4 +27,79 @@ a {
   position: relative;
 
   margin: 0 auto;
+}
+
+.button {
+  display: block;
+
+  width: 130px;
+
+  padding: 10px;
+
+  border: 2px solid #333;
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: #333;
+
+  color: #fff;
+}
+
+.button.button--reverse {
+  background-color: #333;
+
+  color: #fff;
+}
+
+.button.button--reverse:hover {
+  background-color: transparent;
+
+  color: #333;
+}
+
+.button.button--brown {
+  border-color: #592b18;
+
+  color: #592b18;
+}
+
+.button.button--brown:hover {
+  background-color: #592b18;
+
+  color: #fff;
+}
+
+.button.button--gold {
+  border-color: #d9aa8a;
+
+  color: #d9aa8a;
+}
+
+.button.button--gold:hover {
+  background-color: #d9aa8a;
+
+  color: #fff;
+}
+
+.button.button--white {
+  border-color: #fff;
+
+  color: #fff;
+}
+
+.button.button--white:hover {
+  background-color: #fff;
+
+  color: #333;
 }

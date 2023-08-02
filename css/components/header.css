@@ -2,10 +2,14 @@
   width: 100%;
 
   position: fixed;
+  top: 0;
+  right: 0;
 
   background-color: #f6f5f0;
 
   border-bottom: 1px solid #c8c8c8;
+
+  z-index: 10;
 }
 
 .header > .inner {
@@ -129,8 +133,6 @@
 
   bottom: 0;
   right: 0;
-
-  z-index: 1;
 }
 
 .main-menu__list {
