@@ -1,0 +1,59 @@
+.rewards {
+  position: relative;
+}
+
+.rewards__left {
+  width: 50%;
+  height: 100%;
+
+  background-color: #272727;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+
+.rewards__right {
+  width: 50%;
+  height: 100%;
+
+  background-color: #d5c798;
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+}
+
+.rewards > .inner {
+  height: 241px;
+
+  background-image: url(../../images/rewards.jpg);
+}
+
+.rewards__buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 250px;
+
+  position: absolute;
+
+  bottom: 24px;
+  right: 0;
+}
+
+.button.button--sign-up {
+  margin-right: 10px;
+}
+
+.button.button--sign-in {
+  width: 110px;
+}
+
+.button.button--gift {
+  flex-grow: 1;
+
+  margin-top: 10px;
+}
