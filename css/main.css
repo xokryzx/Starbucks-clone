@@ -1,5 +1,6 @@
 @import './components/header.css';
 @import './components/visual.css';
+@import './components/notice.css';
 
 * {
   box-sizing: border-box;
