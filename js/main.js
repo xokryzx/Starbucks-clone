@@ -34,9 +34,23 @@ window.addEventListener(
 );
 
 const $fadeIn = document.querySelectorAll('.visual--fade-in');
+
 $fadeIn.forEach((element, index) => {
   gsap.to(element, 1, {
     delay: (index + 1) * 0.7,
     opacity: 1,
   });
+});
+
+const $promotion = document.querySelector('.notice__promotion');
+const $promotionToggleButton = document.querySelector('.right__toggle');
+let isPromotionHide = false;
+
+$promotionToggleButton.addEventListener('click', () => {
+  isPromotionHide = !isPromotionHide;
+  if (isPromotionHide) {
+    $promotion.classList.add('hide');
+  } else {
+    $promotion.classList.remove('hide');
+  }
 });
