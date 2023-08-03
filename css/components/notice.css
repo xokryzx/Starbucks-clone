@@ -56,6 +56,17 @@
   height: 62px;
 }
 
+.left__swiper-slide {
+  display: flex;
+  align-items: center;
+
+  height: 62px;
+}
+
+.left__swiper-link {
+  color: #fff;
+}
+
 .left__more {
   display: flex;
   justify-content: center;
