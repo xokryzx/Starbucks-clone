@@ -1,0 +1,28 @@
+.reserve {
+  background-image: url(../../images/reserve-background.jpg);
+}
+
+.reserve > .inner {
+  height: 400px;
+}
+
+.reserve__logo {
+  position: absolute;
+
+  top: 110px;
+  left: 0;
+}
+
+.reserve__text {
+  position: absolute;
+
+  top: 124px;
+  left: 208px;
+}
+
+.reserve__product {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+}
