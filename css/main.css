@@ -3,6 +3,7 @@
 @import './components/notice.css';
 @import './components/rewards.css';
 @import './components/youtube.css';
+@import './components/seasonal-product.css';
 
 * {
   box-sizing: border-box;

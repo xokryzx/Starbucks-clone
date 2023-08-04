@@ -1,0 +1,22 @@
+.seasonal-product {
+  background-image: url(../../images/seasonal-product-background.jpg);
+}
+
+.seasonal-product > .inner {
+  height: 400px;
+}
+
+.seasonal-product__text {
+  position: absolute;
+
+  top: 110px;
+  right: 100px;
+}
+
+.product__text--title {
+  margin-bottom: 10px;
+}
+
+.product__text--desc {
+  margin-bottom: 15px;
+}
