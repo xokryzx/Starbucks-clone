@@ -5,6 +5,7 @@
 @import './components/youtube.css';
 @import './components/seasonal-product.css';
 @import './components/reserve.css';
+@import './components/favorite.css';
 
 * {
   box-sizing: border-box;

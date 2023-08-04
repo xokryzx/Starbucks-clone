@@ -1,0 +1,29 @@
+.favorite {
+  background-image: url(../../images/favorite-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.favorite > .inner {
+  padding: 110px 0;
+}
+
+.favorite__text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  width: 362px;
+
+  margin-left: 100px;
+}
+
+.favorite__text--title {
+  margin-bottom: 40px;
+}
+
+.favorite__text--desc {
+  margin-bottom: 40px;
+}
