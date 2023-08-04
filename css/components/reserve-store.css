@@ -1,0 +1,60 @@
+.reserve-store {
+  background-image: url(../../images/reserve-store-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.reserve-store > .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 600px;
+}
+
+.reserve-store__medal {
+  width: 334px;
+  height: 334px;
+
+  perspective: 600px;
+}
+
+.medal--front,
+.medal--back {
+  width: 334px;
+  height: 334px;
+
+  position: absolute;
+
+  backface-visibility: hidden;
+
+  transition: 1s;
+}
+
+.medal--front {
+  transform: rotateY(0deg);
+}
+
+.reserve-store__medal:hover .medal--front {
+  transform: rotateY(180deg);
+}
+
+.medal--back {
+  transform: rotateY(-180deg);
+}
+
+.reserve-store__medal:hover .medal--back {
+  transform: rotateY(0deg);
+}
+
+.medal--back__button {
+  position: absolute;
+
+  top: 240px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
