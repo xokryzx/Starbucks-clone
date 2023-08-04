@@ -53,3 +53,21 @@
   top: 0;
   left: 0;
 }
+
+.youtube > .inner {
+  height: 700px;
+}
+
+.image--floating1 {
+  position: absolute;
+
+  top: 50px;
+  left: 0px;
+}
+
+.image--floating2 {
+  position: absolute;
+
+  top: 350px;
+  left: 150px;
+}

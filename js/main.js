@@ -54,3 +54,19 @@ $promotionToggleButton.addEventListener('click', () => {
     $promotion.classList.remove('hide');
   }
 });
+
+function random(min, max) {
+  return parseFloat((Math.random() * (max - min) + min).toFixed(2));
+}
+function floatingObject(selector, delay, size) {
+  gsap.to(selector, random(1.5, 2.5), {
+    y: size,
+    repeat: -1,
+    yoyo: true,
+    ease: Power1.easeInOut,
+    delay: random(0, delay),
+  });
+}
+floatingObject('.image--floating1', 1, 15);
+floatingObject('.image--floating2', 0.5, 15);
+floatingObject('.image--floating3', 1.5, 20);
