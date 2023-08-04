@@ -2,6 +2,7 @@
 @import './components/visual.css';
 @import './components/notice.css';
 @import './components/rewards.css';
+@import './components/youtube.css';
 
 * {
   box-sizing: border-box;
