@@ -10,6 +10,7 @@
 @import './components/store.css';
 @import './components/awards.css';
 @import './components/footer.css';
+@import './components/scroll-to-top.css';
 
 * {
   box-sizing: border-box;

@@ -15,6 +15,7 @@ $searchInput.addEventListener('blur', () => {
 });
 
 const $badgeContainer = document.querySelector('.badge-container');
+const $scrollToTop = document.querySelector('.scroll-to-top');
 
 window.addEventListener(
   'scroll',
@@ -24,14 +25,25 @@ window.addEventListener(
         display: 'none',
         opacity: 0,
       });
+      gsap.to($scrollToTop, 0.2, {
+        x: 0,
+      });
     } else {
       gsap.to($badgeContainer, 0.6, {
         display: 'block',
         opacity: 1,
       });
+      gsap.to($scrollToTop, 0.2, {
+        x: 100,
+      });
     }
   }, 300)
 );
+$scrollToTop.addEventListener('click', () => {
+  gsap.to(window, 0.7, {
+    scrollTo: 0,
+  });
+});
 
 const $fadeIn = document.querySelectorAll('.visual--fade-in');
 
