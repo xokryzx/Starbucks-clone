@@ -1,0 +1,55 @@
+.awards {
+  background-color: #272727;
+}
+
+.awards > .inner {
+  padding: 40px 0;
+}
+
+.awards__swiper-container {
+  width: 100%;
+  height: 40px;
+}
+
+.awards__swiper-prev,
+.awards__swiper-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 42px;
+  height: 42px;
+
+  border: 2px solid #fff;
+  border-radius: 50%;
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  margin: auto;
+
+  outline: none;
+
+  color: #fff;
+
+  opacity: 0.3;
+
+  cursor: pointer;
+}
+
+.awards__swiper-prev {
+  left: -100px;
+}
+
+.awards__swiper-next {
+  right: -100px;
+}
+
+.awards__swiper-prev:hover,
+.awards__swiper-next:hover {
+  background-color: #fff;
+
+  color: #333;
+}

@@ -21,3 +21,14 @@ new Swiper('.promotion__swiper-container', {
     nextEl: '.promotion__swiper-next',
   },
 });
+
+new Swiper('.awards__swiper-container', {
+  autoplay: true,
+  loop: true,
+  spaceBetween: 30,
+  slidesPerView: 5,
+  navigation: {
+    prevEl: '.awards__swiper-prev',
+    nextEl: '.awards__swiper-next',
+  },
+});

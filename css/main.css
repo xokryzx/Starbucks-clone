@@ -8,6 +8,7 @@
 @import './components/favorite.css';
 @import './components/reserve-store.css';
 @import './components/store.css';
+@import './components/awards.css';
 
 * {
   box-sizing: border-box;
