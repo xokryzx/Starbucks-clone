@@ -80,3 +80,6 @@ $spyElements.forEach((spyElement) => {
     .setClassToggle(spyElement, 'show')
     .addTo(new ScrollMagic.Controller());
 });
+
+const $thisYear = document.querySelector('.copyright__this-year');
+$thisYear.textContent = new Date().getFullYear();

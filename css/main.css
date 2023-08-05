@@ -9,6 +9,7 @@
 @import './components/reserve-store.css';
 @import './components/store.css';
 @import './components/awards.css';
+@import './components/footer.css';
 
 * {
   box-sizing: border-box;
