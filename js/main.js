@@ -70,3 +70,13 @@ function floatingObject(selector, delay, size) {
 floatingObject('.image--floating1', 1, 15);
 floatingObject('.image--floating2', 0.5, 15);
 floatingObject('.image--floating3', 1.5, 20);
+
+const $spyElements = document.querySelectorAll('section.scroll-spy');
+$spyElements.forEach((spyElement) => {
+  new ScrollMagic.Scene({
+    triggerElement: spyElement,
+    triggerHook: 0.8,
+  })
+    .setClassToggle(spyElement, 'show')
+    .addTo(new ScrollMagic.Controller());
+});
