@@ -10,7 +10,7 @@ new Swiper('.promotion__swiper-container', {
   centeredSlides: true,
   loop: true,
   autoplay: {
-    delay: 2000,
+    delay: 5000,
   },
   pagination: {
     el: '.promotion__swiper-pagination',
