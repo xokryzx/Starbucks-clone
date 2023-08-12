@@ -1,6 +1,5 @@
 .footer {
   background-color: #272727;
-
   border-top: 1px solid #333;
 }
 
@@ -19,19 +18,16 @@
 
 .footer__item::before {
   content: '';
+  background-color: #555;
 
   width: 3px;
   height: 3px;
-
-  background-color: #555;
+  margin: auto;
 
   position: absolute;
-
   top: 0;
   bottom: 0;
   right: -1px;
-
-  margin: auto;
 }
 
 .footer__item:last-child::before {
@@ -40,12 +36,11 @@
 
 .footer__link {
   display: block;
+  padding: 15px;
 
   font-size: 12px;
   font-weight: 700;
   color: #ccc;
-
-  padding: 15px;
 }
 
 .footer__link.green {
@@ -55,7 +50,6 @@
 .footer__buttons {
   display: flex;
   justify-content: center;
-
   margin-top: 12px;
 }
 
@@ -70,13 +64,11 @@
 
 .footer__infos {
   margin-top: 30px;
-
   text-align: center;
 }
 
 .footer__info {
   margin-right: 20px;
-
   font-size: 12px;
   color: #999;
 }
@@ -89,7 +81,6 @@
   font-size: 12px;
   color: #999;
   text-align: center;
-
   margin-top: 12px;
 }
 

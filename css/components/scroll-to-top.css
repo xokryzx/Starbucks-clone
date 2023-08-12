@@ -5,20 +5,16 @@
 
   width: 42px;
   height: 42px;
-
   background-color: #333;
 
   border: 2px solid #fff;
   border-radius: 10px;
 
   position: fixed;
-
   bottom: 30px;
   right: 30px;
 
   color: #fff;
-
   z-index: 10;
-
   cursor: pointer;
 }

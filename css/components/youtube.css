@@ -1,34 +1,27 @@
 .youtube {
   height: 700px;
-
   background-color: #333;
-
   position: relative;
-
   overflow: hidden;
 }
 
 .youtube__area {
   width: 1920px;
-
-  position: absolute;
-
-  top: 50%;
-  left: 50%;
-
   margin-top: calc(1920px * 9 / 16 / -2);
   margin-left: calc(1920px / -2);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .youtube__area::before {
   content: '';
-
   display: block;
+  padding-top: 56.25%;
 
   width: 100%;
   height: 0;
-
-  padding-top: 56.25%;
 }
 
 #player {
@@ -36,7 +29,6 @@
   height: 100%;
 
   position: absolute;
-
   top: 0;
   left: 0;
 }
@@ -49,7 +41,6 @@
   background-color: rgba(0, 0, 0, 0.3);
 
   position: absolute;
-
   top: 0;
   left: 0;
 }
@@ -60,14 +51,12 @@
 
 .image--floating1 {
   position: absolute;
-
   top: 50px;
   left: 0px;
 }
 
 .image--floating2 {
   position: absolute;
-
   top: 350px;
   left: 150px;
 }

@@ -1,14 +1,12 @@
 .header {
   width: 100%;
+  background-color: #f6f5f0;
 
   position: fixed;
   top: 0;
   right: 0;
 
-  background-color: #f6f5f0;
-
   border-bottom: 1px solid #c8c8c8;
-
   z-index: 11;
 }
 
@@ -18,27 +16,23 @@
 
 .header__logo {
   height: 75px;
+  margin: auto;
 
   position: absolute;
-
   top: 0;
   bottom: 0;
-
-  margin: auto;
 }
 
 .header__submenu {
   display: flex;
 
   position: absolute;
-
   top: 10px;
   right: 0;
 }
 
 .submenu__list {
   display: flex;
-
   font-family: Arial, sans-serif;
 }
 
@@ -48,18 +42,15 @@
 
 .submenu__item::before {
   content: '';
+  background-color: #e5e5e5;
 
   width: 1px;
   height: 12px;
-
-  background-color: #e5e5e5;
+  margin: auto;
 
   position: absolute;
-
   top: 0;
   bottom: 0;
-
-  margin: auto;
 }
 
 .submenu__item:first-child::before {
@@ -68,7 +59,6 @@
 
 .submenu__link {
   display: block;
-
   padding: 11px 16px;
 
   font-size: 12px;
@@ -81,46 +71,37 @@
 
 .submenu__search {
   height: 34px;
-
   position: relative;
 }
 
 .search__input {
   width: 36px;
   height: 34px;
-
+  padding: 4px 10px;
   background-color: #fff;
 
-  padding: 4px 10px;
-
+  outline: none;
   border: 1px solid #ccc;
   border-radius: 5px;
 
-  outline: none;
-
   font-size: 12px;
   color: #777;
-
   transition: width 0.4s;
 }
 
 .search__input:focus {
   width: 190px;
-
   border-color: #669900;
 }
 
 .search__material-icons {
   height: 24px;
+  margin: auto;
 
   position: absolute;
-
   top: 0;
   bottom: 0;
   right: 5px;
-
-  margin: auto;
-
   transition: 0.4s;
 }
 
@@ -130,7 +111,6 @@
 
 .header__main-menu {
   position: absolute;
-
   bottom: 0;
   right: 0;
 }
@@ -141,26 +121,20 @@
 
 .item__name {
   padding: 10px 20px 34px 20px;
-
   font-family: Arial, sans-serif;
   font-size: 13px;
 }
 
 .main-menu__item:hover .item__name {
   background-color: #2c2a29;
-
   border-radius: 6px 6px 0 0;
-
   color: #669900;
 }
 
 .item__contents {
   display: none;
-
   width: 100%;
-
   position: fixed;
-
   left: 0;
 }
 
@@ -174,7 +148,6 @@
 
 .contents__menu > .inner {
   display: flex;
-
   padding: 20px 0;
 }
 
@@ -184,17 +157,14 @@
 
 .contents__name {
   padding: 3px 0 12px 0;
-
   font-size: 14px;
   color: #fff;
 }
 
 .contents__item {
   padding: 5px 0;
-
   font-size: 12px;
   color: #999;
-
   cursor: pointer;
 }
 
@@ -204,7 +174,6 @@
 
 .contents__texture {
   background-image: url(../../images/main-menu-pattern.jpg);
-
   font-size: 12px;
 }
 
@@ -219,25 +188,20 @@
 
 .texture__content {
   margin: 4px 0 14px;
-
   color: #669900;
 }
 
 .badge-container {
   position: absolute;
-
   top: 132px;
   right: 12px;
 }
 
 .badge {
   margin-bottom: 12px;
-
   border-radius: 10px;
 
   overflow: hidden;
-
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
-
   cursor: pointer;
 }

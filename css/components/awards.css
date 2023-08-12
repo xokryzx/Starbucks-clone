@@ -19,23 +19,18 @@
 
   width: 42px;
   height: 42px;
+  margin: auto;
 
+  outline: none;
   border: 2px solid #fff;
   border-radius: 50%;
 
   position: absolute;
-
   top: 0;
   bottom: 0;
 
-  margin: auto;
-
-  outline: none;
-
   color: #fff;
-
   opacity: 0.3;
-
   cursor: pointer;
 }
 
@@ -50,6 +45,5 @@
 .awards__swiper-prev:hover,
 .awards__swiper-next:hover {
   background-color: #fff;
-
   color: #333;
 }

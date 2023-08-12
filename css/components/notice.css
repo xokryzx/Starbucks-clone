@@ -5,11 +5,9 @@
 .notice__left {
   width: 50%;
   height: 62px;
-
   background-color: #333;
 
   position: absolute;
-
   top: 0;
   left: 0;
 }
@@ -17,18 +15,15 @@
 .notice__right {
   width: 50%;
   height: 62px;
-
   background-color: #f6f5ef;
 
   position: absolute;
-
   top: 0;
   right: 0;
 }
 
 .notice > .inner {
   display: flex;
-
   height: 62px;
 }
 
@@ -38,13 +33,11 @@
 
   width: 60%;
   height: 100%;
-
   background-color: #333;
 }
 
 .left__title {
   margin-right: 20px;
-
   font-size: 17px;
   font-weight: 700;
   color: #fff;
@@ -52,14 +45,12 @@
 
 .left__swiper-container {
   flex-grow: 1;
-
   height: 62px;
 }
 
 .left__swiper-slide {
   display: flex;
   align-items: center;
-
   height: 62px;
 }
 
@@ -102,7 +93,6 @@
 
   width: 62px;
   height: 62px;
-
   cursor: pointer;
 }
 
@@ -112,13 +102,10 @@
 
 .notice__promotion {
   height: 693px;
-
   background-color: #f6f5ef;
 
   position: relative;
-
   transition: height 0.4s;
-
   overflow: hidden;
 }
 
@@ -129,20 +116,16 @@
 .swiper-container.promotion__swiper-container {
   width: calc(819px * 3 + 20px);
   height: 553px;
+  margin-left: calc((819px * 3 + 20px) / -2);
 
   position: absolute;
-
   top: 40px;
   left: 50%;
-
-  margin-left: calc((819px * 3 + 20px) / -2);
 }
 
 .promotion__swiper-slide {
   opacity: 0.5;
-
   position: relative;
-
   transition: opacity 1s;
 }
 
@@ -152,11 +135,9 @@
 
 .promotion__button.button {
   position: absolute;
-
   bottom: 0;
   left: 0;
   right: 0;
-
   margin: auto;
 }
 
@@ -169,13 +150,11 @@
 .promotion__swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-
-  background-color: transparent;
-  background-image: url(../../images/promotion-slide-pager.png);
-
   margin-right: 6px;
 
   outline: none;
+  background-color: transparent;
+  background-image: url(../../images/promotion-slide-pager.png);
 }
 
 .promotion__swiper-pagination .swiper-pagination-bullet:last-child {
@@ -196,34 +175,28 @@
   height: 42px;
 
   position: absolute;
-
   top: 300px;
 
   border: 2px solid #333;
   border-radius: 50%;
 
   z-index: 1;
-
   transition: 0.4s;
-
   cursor: pointer;
 }
 
 .promotion__swiper-prev {
   left: 50%;
-
   margin-left: -480px;
 }
 
 .promotion__swiper-next {
   right: 50%;
-
   margin-right: -480px;
 }
 
 .promotion__swiper-prev:hover,
 .promotion__swiper-next:hover {
   background-color: #333;
-
   color: #fff;
 }

@@ -8,23 +8,19 @@
 
 .store__texture1 {
   position: absolute;
-
   top: 0;
   left: 400px;
 }
 
 .store__texture2 {
   position: absolute;
-
   bottom: 0;
   right: 0;
 }
 
 .store__image {
   position: absolute;
-
   border-radius: 50%;
-
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -40,7 +36,6 @@
 
 .store__text {
   position: absolute;
-
   top: 120px;
   left: 550px;
 }
